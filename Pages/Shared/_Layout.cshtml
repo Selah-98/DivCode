@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DivCode</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/DivCode.styles.css" />
+</head>
+<body>
+    <!-- ================= MENU / NAVIGATION ================= -->
+    <header class="header-bar">
+
+        <!-- LEFT: Site Name -->
+        <div class="site-name">
+            <a href="/">_DivCode</a>
+        </div>
+
+        <!-- CENTER: MENU (FULL LINKS + SVGs PRESERVED) -->
+        <nav class="menu">
+
+            <!-- Home Link -->
+            <a href="/" class="link">
+                <span class="link-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256">
+                        <rect width="256" height="256" fill="none"></rect>
+                        <path d="M213.3815,109.61945,133.376,36.88436a8,8,0,0,0-10.76339.00036l-79.9945,72.73477A8,8,0,0,0,40,115.53855V208a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V115.53887A8,8,0,0,0,213.3815,109.61945Z"
+                              fill="none" stroke="currentColor" stroke-width="16"></path>
+                    </svg>
+                </span>
+                <span class="link-title">Home</span>
+            </a>
+
+        
+
+        </nav>
+
+      
+
+
+    <!-- ================= MAIN PAGE CONTENT ================= -->
+    <main>
+        @RenderBody()
+
+
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="border-top text-center py-3 mt-5" style="background-color: transparent;">
+        <div class="mb-2">
+            <a href="http://linkedin.com/in/divine-ilunga-969951293"
+               target="_blank"
+               class="text-decoration-none me-3 text-dark">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/Selah-98"
+               target="_blank"
+               class="text-decoration-none text-dark">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+        </div>
+        <p class="mb-0">© 2026 Divine Ngalula Ilunga</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+</body>
+</html>

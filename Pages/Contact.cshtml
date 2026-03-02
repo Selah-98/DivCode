@@ -1,0 +1,27 @@
+﻿@page
+@model DivCode.Pages.ContactModel
+
+@{
+    ViewData["Title"] = "Contact";
+}  
+
+<div class="contact-page">
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+
+        @if (ViewData["Message"] != null)
+        {
+            <div class="alert alert-info">@ViewData["Message"]</div>
+        }
+
+
+
+        <form method="post">
+            <input class="form-control mb-3" asp-for="Name" placeholder="Your Name" required />
+            <input class="form-control mb-3" asp-for="Email" placeholder="Your Email" required />
+<textarea class="form-control mb-3" asp-for="Message" rows="5" placeholder="Your Message" required></textarea>
+            >
+            <button class="btn btn-dark"> Send </button>
+        </form>
+    </div>
+</div>
