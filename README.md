@@ -1,6 +1,4 @@
-Absolutely! Here’s a clean, professional **README file template** tailored for your portfolio website project. You can copy it into your GitHub repo and update it as needed:
 
----
 
 # Personal Portfolio Website
 
@@ -48,6 +46,4 @@ To run this project locally:
 
 For feedback or inquiries, feel free to contact me via GitHub or email: **[your-email@example.com](mailto:divineilunga011@gmail.com)**
 
----
 
-If you want, I can **also make a super sleek, minimal version** that’s more aesthetic and GitHub-friendly for a first impression—perfect for recruiters looking at your projects. Do you want me to do that?
